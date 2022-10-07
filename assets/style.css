@@ -58,10 +58,12 @@ table {
 /* END CSS RESET */
 
 /* FONT */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,300&display=swap');
+
 body{
   font-family: 'Roboto', sans-serif;
 }
+
 /* MISC STYLE */
 img {
   max-width: 100%;
@@ -139,4 +141,151 @@ h1, h2 {
   justify-content: space-between;
   padding-top: 50px;
   padding-bottom: 50px;
+}
+
+.header .container div {
+  width: 50%;
+}
+
+.header p {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+/* BUTTON */
+.button {
+  background-color: #3882F6;
+  border-radius: 5px;
+  border: 0;
+  margin-top: 15px;
+  padding: 5px 15px;
+}
+
+.button a {
+  text-decoration: none;
+  color: #FFF;
+}
+
+.button a:visited {
+  color: #FFF;
+}
+
+/* INFORMATION */
+.boxes {
+  min-height: 450px;
+  padding-top: 25px;
+}
+
+.boxes .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info-header {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1F2937;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+
+div.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.box div {
+  border: 5px solid #3882F6;
+  border-radius: 10px;
+  height: 150px;
+  width: 150px;
+}
+
+.box span {
+  color: #6D747D;
+  margin-top: 10px;
+  width: 75%;
+}
+
+/* QUOTE */
+.article {
+  background: #E5E7EB;
+  min-height: 400px;
+}
+
+.article .container {
+  display: flex;
+  flex-direction: column;
+}
+
+.article p {
+  margin: 0 150px;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: light;
+  color: #1F2937
+}
+
+.article span {
+  color: #1F2937;
+  font-weight: bold;
+  align-self: flex-end;
+  margin-right: 150px;
+  margin-top: 25px;
+}
+
+/* CALL TO ACTION ASIDE */
+.aside {
+  min-height: 350px;
+}
+
+.aside .container {
+  display: flex;  
+}
+
+/* CALL TO ACTION BOX */
+.call-to-action {
+  background: #3882F6;
+  width: 100%;
+  height: 100px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.call-to-action div {
+  color: #FFF;
+  align-self: center;
+}
+
+.call-to-action h4 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.call-to-action .button {
+  border: 2px solid #FFF;
+  height: 30px;
+  align-self: center;
+}
+
+/* FOOTER */
+.footer {
+  min-height: 50px;
+  background-color: #1F2937;
+}
+
+.footer .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.footer span {
+  color: #FFF;
 }
