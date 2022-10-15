@@ -215,6 +215,7 @@ div.box {
 .article {
   background: #E5E7EB;
   min-height: 400px;
+  padding-top: 50px;
 }
 
 .article .container {
@@ -227,7 +228,7 @@ div.box {
   font-size: 36px;
   font-style: italic;
   font-weight: light;
-  color: #1F2937
+  color: #1F2937;
 }
 
 .article span {
@@ -241,6 +242,7 @@ div.box {
 /* CALL TO ACTION ASIDE */
 .aside {
   min-height: 350px;
+  padding-top: 100px;
 }
 
 .aside .container {
@@ -277,6 +279,7 @@ div.box {
 .footer {
   min-height: 50px;
   background-color: #1F2937;
+  padding-top: 15px;
 }
 
 .footer .container {
